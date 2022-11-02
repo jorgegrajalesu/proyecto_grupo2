@@ -1,0 +1,24 @@
+/* fuente */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family:'Montserrat', sans-serif;
+    overflow-x:hidden;
+}
+
+#menu{
+    background-color:rgb(245, 244, 244) !important;
+} 
+
+.logo{
+    width: 200px;
+}
+
+.slideimg{
+    height: 560px;
+}
+
+.carousel-inner{
+    max-height: 39rem !important;
+}
+
