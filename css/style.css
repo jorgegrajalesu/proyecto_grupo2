@@ -35,12 +35,40 @@ body {
 
 .buy{
     margin-left: 30%;
+    
 }
 
 /* servicios */
 .services{
     width: 180px;
     height: 160px;
+}
+
+/* footer */
+#page-footer .ftcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    background-color: rgb(7, 7, 7);
+    padding: 70px 0;
+}
+
+.footer__cta-ftcontainer{
+    max-width: 1200px;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.ftrow{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 
