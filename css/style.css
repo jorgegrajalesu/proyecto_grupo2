@@ -71,4 +71,153 @@ body {
     flex-wrap: wrap;
 }
 
+.footer__cta-ftcontainer .cta__txt{
+    font-size: 36px;
+    max-width: 50%;
+    padding: 0;
 
+}
+
+.footer__cta-ftcontainer .cta__btn{
+    margin-top: 0;
+}
+
+.footer__menu{
+    max-width: 300px;
+    grid-column: 1/3;
+    grid-row-start: 1;
+    padding-left: 1em;
+}
+
+.footer__menu figure{
+    width: 100%;
+    margin-top: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__cta-ftcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 0;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    flex-wrap: nowrap;
+}
+
+.footer__cta-ftcontainer:after{
+    position: absolute;
+    background-color: rgba(253, 253, 253, 0.858);
+    max-width: 1200px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    content: "";
+    height: 1px;
+    
+}
+
+.footer__cta-ftcontainer .cta__txt{
+    margin: 0;
+    color: #fff;
+    font-size: 26px;
+    padding: 0 15px;
+}
+
+.footer__cta-ftcontainer .cta__btn{
+    color: #fff;
+    border: 2px solid rgb(68, 3, 3);
+    padding: 26px 60px;
+    border-radius: 500px;
+    background-color: transparent;
+    font-size: 16px;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 700;
+    transition: all .4s ease-in-out;
+    margin-top: 30px;
+}
+
+.footer__cta-ftcontainer .cta__btn:hover{
+    color: rgb(103, 237, 108);
+    background-color: rgb(58, 2, 2);
+    border-color: rgb(49, 2, 2);
+}
+
+.footer__menu{
+    padding: 0 15px;
+}
+
+.footer__link{
+    margin: 1em 0;
+    list-style: none;
+    font-size: 16px;
+    padding: 5px 0 5px .5em;
+}
+
+.ft-social{
+    border: 0;
+    width: 30px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 100%;
+    display: inline-block;
+    height: auto;
+    line-height:inherit;
+}
+
+.ft-link{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer__link:nth-child(1){
+    border-left: 3px solid rgb(248, 203, 5);
+}
+
+.footer__link:nth-child(2) {
+    border-left: 3px solid rgb(248, 5, 5);
+}
+
+.footer__link:nth-child(3) {
+    border-left: 3px solid rgb(17, 5, 248);
+}
+
+.footer__title{
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.footer__info{
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;    
+}
+footer{
+    background-color:#000;
+    min-height: 100px;
+}
+
+footer p{
+    color: #fff;
+    text-align:center;
+}
+
+#page-footer .ftcontainer{
+    flex-direction: row;
+    max-width: 1200px;
+    justify-content: space-between;
+    padding: 70px 0;
+    margin: 0 auto;
+}
+
+.footer__logo{
+    width: 100%;
+}
