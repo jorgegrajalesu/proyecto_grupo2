@@ -221,3 +221,13 @@ footer p{
 .footer__logo{
     width: 100%;
 }
+
+/* pagina samsug */
+#ofertastv{
+    background-color: rgb(255, 255, 255);
+}
+#ofertastv .titulo {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
