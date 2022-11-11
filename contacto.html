@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Grupo 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesrgb(255, 255, 255)://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/logo.ico" type="image/x-icon">
+    <!-- kit de fontawesome -->
+    <script src="https://kit.fontawesome.com/952509c1de.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- logo y menú -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-3 bg-light" id="menu">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="/img/logo.png" alt="" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Marcas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="samsug.html">Samsug</a></li>
+                            <li><a class="dropdown-item" href="lg.html">LG</a></li>
+                            <li><a class="dropdown-item" href="sony.html">Sony</a></li>
+                            <li><a class="dropdown-item" href="panasonic.html">Panasonic</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <!-- enlaces a las redes -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fab fa-whatsapp"></i></a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="email" placeholder="Email" aria-label="Suscripcion">
+                    <button class="btn btn-outline-dark" type="submit">Suscripción</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- slider -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="/img/slide1.jpg" class="d-block w-100 slideimg" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="/img/slide2.jpg" class="d-block w-100 slideimg" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="/img/slide3.jpg" class="d-block w-100 slideimg" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- noticias o novedades -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="noticias">
+        <h1 class="titulo">¡Noticias!</h1>
+        <div class="col">
+            <div class="card">
+                <img src="https://images.samsung.com/is/image/samsung/assets/co/offer/shop_main/01_CM_SMARTPHONES_OFERTAS_COM_SAMSUNG_WEEK_S22_ULTRA_DESKTOP_448X278.jpg?$448_N_JPG$"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Samsug</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional
+                        content. This content is a little bit longer.</p>
+                    <a href="https://wa.me/3105188168" class="btn btn-primary buy" target="_blank">Comprar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="https://images.samsung.com/is/image/samsung/assets/co/offer/shop_main/01_CM_SMARTPHONES_OFERTAS_COM_SAMSUNG_WEEK_S22_ULTRA_DESKTOP_448X278.jpg?$448_N_JPG$"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional
+                        content. This content is a little bit longer.</p>
+                    <a href="https://wa.me/3105188168" class="btn btn-primary buy" target="_blank">Comprar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="https://images.samsung.com/is/image/samsung/assets/co/offer/shop_main/01_CM_SMARTPHONES_OFERTAS_COM_SAMSUNG_WEEK_S22_ULTRA_DESKTOP_448X278.jpg?$448_N_JPG$"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional
+                        content.</p>
+                    <a href="https://wa.me/3105188168" class="btn btn-primary buy" target="_blank">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- servicios -->
+    <section class="w-100">
+        <div class="row w-75 mx-auto" id="servicios-fila-1">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-star my-5 icono-wrap">
+                <img src="img/desarrollo.png" alt="desarrollo" class="services">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Desarrollo</h3>
+                    <p class="px-4">
+                        Desarrollo de aplicaciones moviles
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-star my-5 icono-wrap">
+                <img src="img/concepto.png" alt="Concepto" class="services">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Concepto</h3>
+                    <p class="px-4">
+                        Diseño e implementación
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-star my-5 icono-wrap">
+                <img src="img/desarrollo.png" alt="desarrollo" class="services">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Desarrollo</h3>
+                    <p class="px-4">
+                        Desarrollo de aplicaciones moviles
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-star my-5 icono-wrap">
+                <img src="img/concepto.png" alt="Concepto" class="services">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Concepto</h3>
+                    <p class="px-4">
+                        Diseño e implementación
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer en M. BEM -->
+    <footer id="page-footer">
+        <div class="footer__cta">
+            <div class="footer__cta-ftcontainer">
+                <h2 class="cta__txt">¿Preguntas?, Estamos aquí para ayudar</h2>
+                <div class="cta__ftrow">
+                    <a href="https://wa.me/3105188168" class="cta__btn" target="_blank">
+                        <i class="fa fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="ftcontainer">
+            <div class="footer__menu">
+                <figure>
+                    <img src="img/logo.png" alt="logo" class="footer__logo">
+                </figure>
+                <!-- iconos de redes -->
+                <p class="ft-social-ftrow">
+                    <a href="https://www.facebook.com/" target="_blank" class="ft-social"><i
+                            class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" class="ft-social"><i
+                            class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank" class="ft-social"><i
+                            class="fa fa-youtube"></i></a>
+                </p>
+            </div>
+            <!-- horarios -->
+            <div class="footer__menu">
+                <h4 class="footer__title">Horario</h4>
+                <span class="footer__info">
+                    Lunes a Viernes: 8:00am a 5:00pm | Sábados: 9:00am a 4:00pm
+                </span>
+            </div>
+            <!-- enlaces -->
+            <div class="footer__menu">
+                <h4 class="footer__title">Enlaces</h4>
+                <ul class="ft-link">
+                    <li class="footer__link">
+                        <a href="nosotros.html" target="_blank">Nosotros</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="lg.html" target="_blank">lg</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="condiciones.html" target="_blank">Términos y condiciones de uso</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Contactos -->
+            <div class="footer__menu">
+                <h4 class="footer__title">Contacto</h4>
+                <p class="footer__info">
+                    <i class="fas fa-envelope"></i>
+                    Email: aprendesoftware@poliandino.edu.co
+                </p>
+                <p class="footer__info">
+                    <i class="fas fa-phone"></i>
+                    Teléfono: 6043113698
+                </p>
+                <p class="footer__info">
+                    <i class="fas fa-mobile"></i>
+                    Celular: 3113698100
+                </p>
+                <p class="footer__info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Dirección: Calle 121 N 12-56
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
