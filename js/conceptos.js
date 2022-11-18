@@ -20,10 +20,10 @@ console.log(resultado);
 
 //operaciones básicas con dos números
 // datos de entrada con prompt
-let num1=0;
-let num2=0;
-num1 = prompt("Digita el valor del número 1");
-num2 = prompt("Digita el valor del número 2");
+/*let num1=0;
+let num2=0;*/
+let num1 = prompt("Digita el valor del número 1");
+let num2 = prompt("Digita el valor del número 2");
 /*let suma=0;
 let resta=0;
 let multi=0;
@@ -31,7 +31,7 @@ let division=0;*/
 
 
 //procesos o calculo u operaciones
-suma = num1 + num2;
+let suma = parseInt(num1) + parseInt(num2);
 resta = num1 - num2;
 multi = num1 * num2;
 division = num1 / num2;
