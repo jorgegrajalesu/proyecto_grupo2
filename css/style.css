@@ -237,3 +237,12 @@ footer p{
     width: 100%;
     text-align: center;
 }
+
+/* pag cotizar o simulador de factura en js */
+#simulador .titulo {
+    width: 100%;
+    text-align: center;
+}
+#simulador{
+    margin-top: 20px;
+}
