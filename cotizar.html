@@ -77,28 +77,7 @@
         <h1 class="p-4 titulo">Simulador de Factura</h1>
         
         <form class="row mx-auto g-3" name="simuladorFactura">
-            <div class="col-md-6">
-                <label for="inputNombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="inputNombre" placeholder="nombres" required name="inputNombre">
-            </div>
-            <div class="col-md-6">
-                <label for="inputApellidos" class="form-label">Apellidos</label>
-                <input type="text" class="form-control" id="inputApellidos" placeholder="apellidos" required name="inputApellidos">
-            </div>
 
-            <div class="col-12">
-                <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail" name="inputEmail">
-            </div>            
-            <div class="col-md-6">
-                <label for="cantidad" class="form-label">Cantidad</label>
-                <input type="number" class="form-control" id="cantidad" name="cantidad" placeholder="0" required>
-            </div>
-           
-            <div class="col-md-6">
-                <label for="precio" class="form-label">Precio</label>
-                <input type="text" class="form-control" id="precio" name="precio" placeholder="0" required>
-            </div>
             <div class="col-md-12">
                 <label for="producto" class="form-label">Producto</label>
                 <select id="producto" class="form-select" name="producto">
@@ -109,26 +88,40 @@
                     <option value="computador">computador</option>
                 </select>
             </div>
+                        
+            <div class="col-md-6">
+                <label for="cantidad" class="form-label">Cantidad</label>
+                <input type="number" class="form-control" id="cantidad" name="cantidad" placeholder="0" required>
+            </div>
+           
+            <div class="col-md-6">
+                <label for="precio" class="form-label">Precio</label>
+                <input type="text" class="form-control" id="precio" name="precio" placeholder="0" required>
+            </div>
+           
             
             <div class="col-12">
                 <button type="button" class="btn btn-primary" onClick="calcular()">Calcular</button>
                 <button type="reset" class="btn btn-primary">Cancelar</button>
             </div>
             <!-- mostrar resultados -->
-            <p>
-                Producto: <span id="valorProducto"></span>
-                <br>
-                 Precio: <span id="valorPrecio"></span>
-                <br>
-                 Cantidad: <span id="valorCantidad"></span>
-                <br>
-                 Valor Total: <span id="valorTotal"></span>
-                <br>
-                 Valor IVA: <span id="valorIva"></span>
-                <br>
-                 Total a pagar: <span id="totalPagar"></span>
-                <br>
-            </p>
+            <div class="resultados row my-2">
+
+                <p>
+                    Producto: <span id="valorProducto"></span>
+                    <br>
+                     Precio: <span id="valorPrecio"></span>
+                    <br>
+                     Cantidad: <span id="valorCantidad"></span>
+                    <br>
+                     Valor Total: <span id="valorTotal"></span>
+                    <br>
+                     Valor IVA: <span id="valorIva"></span>
+                    <br>
+                     Total a pagar: <span id="totalPagar"></span>
+                    <br>
+                </p>
+            </div>
         </form>
 
         
